@@ -4,7 +4,7 @@ on: [pull_request, workflow_dispatch, push]
 
 env:
   API_HOST: apim-demo-mgmt-api-manager-tools.apps.itz-3wooay.hub01-lb.techzone.ibm.com
-  PLATFORM_API_PREFIX: git_
+  #PLATFORM_API_PREFIX: git_
   PROVIDER_ORG: cp4i-demo-org
   API_FOLDERS: APIfolder
   INSECURE_SKIP_TLS_VERIFY: true
