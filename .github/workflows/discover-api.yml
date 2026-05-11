@@ -7,6 +7,7 @@ env:
   PLATFORM_API_PREFIX: git_
   PROVIDER_ORG: cp4i-demo-org
   API_FOLDERS: APIfolder
+  INSECURE_SKIP_TLS_VERIFY: true
 
 jobs:
   run-discovery:
