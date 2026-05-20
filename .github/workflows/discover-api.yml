@@ -3,7 +3,7 @@ name: Sync Discovered API with APIConnect
 on: [pull_request, workflow_dispatch, push]
 
 env:
-  API_HOST: apps.itz-3wooay.hub01-lb.techzone.ibm.com
+  API_HOST: apps.itz-bi172g.infra01-lb.syd05.techzone.ibm.com
   PLATFORM_API_PREFIX: apim-demo-mgmt-platform-api-tools
   PROVIDER_ORG: cp4i-demo-org
   API_FOLDERS: APIfolder
